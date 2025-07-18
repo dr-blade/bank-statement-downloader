@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Bank Statement Downloader",
+  "version": "1.0",
+  "description": "Fetches bank statements on demand",
+  "permissions": [
+  	  "storage",
+	  "cookies",
+	  "downloads",
+	  "activeTab",
+	  "scripting",
+	  "webRequest",
+	  "downloads",
+      "downloads.shelf",
+      "downloads.open"
+	],
+  "host_permissions": [
+    "*://*.bnpparibas.pl/*",
+    "*://*.nestbank.pl/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
