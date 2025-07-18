@@ -32,7 +32,7 @@ The statements are downloaded as a ZIP archive.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/bank-statement-downloader.git
+   git clone https://github.com/dr-blade/bank-statement-downloader
 2. Open Chrome and go to chrome://extensions/
 3. Enable Developer Mode
 4. Load the unpacked extension and select the project folder
@@ -89,7 +89,7 @@ This project is licensed under the MIT License.
 
 ---
 
-**Author:** [@dr-blade](https://github.com/Tdr-blade)
+**Author:** [@dr-blade](https://github.com/dr-blade)
 
 ---
 
